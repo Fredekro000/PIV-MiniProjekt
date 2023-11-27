@@ -5,9 +5,9 @@ A Mini Project in the course Programming of 3D Interactive Worlds
 The idea of the game to begin with, was to create a realistic looking modern world featuring a tank crew, where the player would be controlling the tank, whilst the crewmates would be talking, so it would be a calm tank crew driving through a forest. However, mid-way through I decided to make The Hunter (Not sure which one). This way I would keep the already built terrain, and only needed to implement a weapon, and a target. So essentially there would be one hunter, one weapon, one prey and one world.
 
 ## Main parts of the game:
-- **Player**: A capsule controlled with WASD and LShift for walking and running.
-- **Shooting**: Equipped with a crossbow, actions include tucking away with 'F', reloading on 'R', aiming on 'RMB', and shooting on 'LMB'.
-- **Enemy**: Shooting a furry (the enemy) results in a slow death.
+- **Player**: A capsule controlled with WASD and LShift for walking, running and jumping.
+- **Crossbow**: Equipped with a crossbow, actions include tucking away with 'F', reloading on 'R', aiming on 'RMB', and shooting on 'LMB'.
+- **Enemy**: Shooting a furry (the enemy / animal) results in a slow death.
 - **Camera**: Placed on the player for a first-person view, with mouse input controlling camera movement.
 - **World**: A 1000x1000 terrain for player exploration.
 
@@ -30,11 +30,6 @@ Players can enjoy walking around in a calm spring morning atmosphere with bird c
 - **Materials**: Created using textures from imported assets, so none were made by me.  
 - **Levels**: Only one scene and world.  
 - **Testing**: Game tested on a Windows PC.  
-
-### Hierarchy objects:
-- My own: ![](cat.jpg)
-- Prefabs: ![](cat.jpg)
- 
 
 ## Time Schedule:
 Although not all time spent on the project is precisely tracked, the stated times are as close to the truth as possible.  
